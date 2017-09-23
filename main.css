@@ -51,11 +51,11 @@ ul {
 }
 .nav {
     width: 122px;
-    float: right;
+    float: left;
 }
 .content{
     width: 904px;
-    float: right;
+    float: left;
 }
 .breadcumbs__item {
     display: inline-block;
