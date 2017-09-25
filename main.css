@@ -46,25 +46,51 @@ h1, h2, h3, h4, h5, h6 {
 .contacts {
     color: #fff;
     width: 181px;
-    height: 75px;
-    padding-top: 12px;
-    padding-bottom: 16px;
+    height: 61px;
     float: right;
     position: relative;
+    overflow: visible;
+    margin-top: 19px;
 }
 .contacts__number {
     font-weight: bold;
     font-size: 21px;
+    margin-bottom: 8px;
 }
 .contacts__number-link {
     color: #fff;
     text-decoration: none;
 }
-.contacts__work-time {
+
+.contacts__work-graf {
     font-size: 14px;
     font-weight: bold;
     text-align: right;
+    text-decoration: underline;
 }
+.contacts__work-time {
+    color: black;
+    visibility: hidden;
+    position: absolute;
+    top: 45px;
+    left: -15px;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+.contacts__time {
+    position: absolute;
+    left: 32px;
+    top: 36px;
+    text-align: left;
+    font-family: roboto;
+    letter-spacing: -1px;
+    line-height: 20px;
+}
+.contacts:hover .contacts__work-time{
+    visibility: visible;
+}
+
 .aside {
     width: 123px;
     float: left;
