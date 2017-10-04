@@ -103,6 +103,23 @@ h1, h2, h3, h4, h5, h6 {
     width: 904px;
     float: left;
 }
+.main-title {
+    position: relative;
+}
+.main-title__wallpaper {
+    height: 353px;
+    width: 879px;
+    background: url(../img/Rectangle.png) no-repeat;
+    margin-left: 18px;
+}
+.main-title__heading {
+    position: absolute;
+    top: 150px;
+    left: 79px;
+    font-size: 49px;
+    color: #221f1f;
+    font-weight: 700;
+}
 .caption {
     font-size: 49px;
     font-weight: bold;
@@ -178,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 .side-bar__btn--current .side-bar__icon {
-    background-image: url("/img/aside/team_active.png")
+    background-image: url("/img/aside/main_active.png")
 }
 .content {
     width: 903px;
