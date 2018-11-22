@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    margin-bottom: 150px;
 }
 
 .container {
@@ -109,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-title__wallpaper {
     height: 353px;
     width: 879px;
-    background: url(../img/Rectangle.png) no-repeat;
+    background: url(img/Rectangle.png) no-repeat;
     margin-left: 18px;
 }
 .main-title__heading {
@@ -160,13 +161,13 @@ h1, h2, h3, h4, h5, h6 {
    color: #221f1f;
 }
 .side-bar__btn:hover .side-bar__icon--arrow {
-    background-image: url("/img/aside/main_active.png");
+    background-image: url("img/aside/main_active.png");
 }
 .side-bar__btn:hover .side-bar__icon--hat {
-    background-image: url("/img/aside/team_active.png");
+    background-image: url("img/aside/team_active.png");
 }
 .side-bar__btn:hover .side-bar__icon--star {
-    background-image: url("/img/aside/feed_active.png");
+    background-image: url("img/aside/feed_active.png");
 }
 .side-bar__text {
     font-size: 12px;
@@ -182,20 +183,20 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .side-bar__icon--arrow {
-    background: url('../img/aside/main.png') center center no-repeat;
+    background: url('img/aside/main.png') center center no-repeat;
 }
 .side-bar__icon--hat{
-    background: url('../img/aside/team.png') center center no-repeat;
+    background: url('img/aside/team.png') center center no-repeat;
 }
 .side-bar__icon--star {
-    background: url('../img/aside/feed.png') center center no-repeat;
+    background: url('img/aside/feed.png') center center no-repeat;
 }
 
 .side-bar__btn--current .side-bar__text{
     color: #000;
 }
 .side-bar__btn--current .side-bar__icon {
-    background-image: url("/img/aside/main_active.png")
+    background-image: url("img/aside/main_active.png")
 }
 .content {
     width: 903px;
